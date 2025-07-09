@@ -5,7 +5,7 @@ import "./globals.css"
 export const metadata: Metadata = {
   title: "Rahmatul Usra - Portfolio",
   description: "Personal portfolio of Rahmatul Usra - Full Stack Developer",
-  generator: "v0.dev",
+  generator: "xsrazy.web.id",
   keywords: ["Rahmatul Usra", "Portfolio", "Full Stack Developer", "Web Developer"],
   authors: [{ name: "Rahmatul Usra" }],
   creator: "Rahmatul Usra",

@@ -13,7 +13,7 @@ const projects = [
     description:
       "A full-stack e-commerce solution with React and Node.js, featuring user authentication and payment integration.",
     image: "/placeholder.svg?height=200&width=300",
-    link: "https://example.com",
+    link: "https://xsrazy.web.id",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const projects = [
     description:
       "A collaborative task management application built with Next.js and real-time updates using WebSocket.",
     image: "/placeholder.svg?height=200&width=300",
-    link: "https://example.com",
+    link: "https://xsrazy.web.id",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const projects = [
     description:
       "A responsive weather dashboard with interactive charts and location-based forecasts using React and APIs.",
     image: "/placeholder.svg?height=200&width=300",
-    link: "https://example.com",
+    link: "https://xsrazy.web.id",
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const projects = [
     description:
       "Analytics dashboard for social media metrics with data visualization and automated reporting features.",
     image: "/placeholder.svg?height=200&width=300",
-    link: "https://example.com",
+    link: "https://xsrazy.web.id",
   },
   {
     id: 5,
@@ -45,7 +45,7 @@ const projects = [
     description:
       "A modern, responsive portfolio website showcasing projects and skills with smooth animations and transitions.",
     image: "/placeholder.svg?height=200&width=300",
-    link: "https://example.com",
+    link: "https://xsrazy.web.id",
   },
   {
     id: 6,
@@ -53,70 +53,70 @@ const projects = [
     description:
       "A content management system for bloggers with markdown support, SEO optimization, and comment system.",
     image: "/placeholder.svg?height=200&width=300",
-    link: "https://example.com",
+    link: "https://xsrazy.web.id",
   },
   {
     id: 7,
     title: "Real Estate App",
     description: "Property listing application with advanced search filters, virtual tours, and mortgage calculator.",
     image: "/placeholder.svg?height=200&width=300",
-    link: "https://example.com",
+    link: "https://xsrazy.web.id",
   },
   {
     id: 8,
     title: "Fitness Tracker",
     description: "Mobile-first fitness tracking app with workout plans, progress monitoring, and social features.",
     image: "/placeholder.svg?height=200&width=300",
-    link: "https://example.com",
+    link: "https://xsrazy.web.id",
   },
   {
     id: 9,
     title: "Recipe Finder",
     description: "Culinary app with recipe search, meal planning, shopping lists, and nutritional information.",
     image: "/placeholder.svg?height=200&width=300",
-    link: "https://example.com",
+    link: "https://xsrazy.web.id",
   },
   {
     id: 10,
     title: "Learning Management System",
     description: "Educational platform with course creation, student progress tracking, and interactive assessments.",
     image: "/placeholder.svg?height=200&width=300",
-    link: "https://example.com",
+    link: "https://xsrazy.web.id",
   },
   {
     id: 11,
     title: "Cryptocurrency Tracker",
     description: "Real-time crypto price monitoring with portfolio management and market analysis tools.",
     image: "/placeholder.svg?height=200&width=300",
-    link: "https://example.com",
+    link: "https://xsrazy.web.id",
   },
   {
     id: 12,
     title: "Event Management System",
     description: "Complete event planning solution with booking, ticketing, and attendee management features.",
     image: "/placeholder.svg?height=200&width=300",
-    link: "https://example.com",
+    link: "https://xsrazy.web.id",
   },
   {
     id: 13,
     title: "Music Streaming App",
     description: "Audio streaming platform with playlist creation, music discovery, and social sharing capabilities.",
     image: "/placeholder.svg?height=200&width=300",
-    link: "https://example.com",
+    link: "https://xsrazy.web.id",
   },
   {
     id: 14,
     title: "Travel Booking Platform",
     description: "Comprehensive travel booking system with flight, hotel, and activity reservations in one place.",
     image: "/placeholder.svg?height=200&width=300",
-    link: "https://example.com",
+    link: "https://xsrazy.web.id",
   },
   {
     id: 15,
     title: "AI Chat Assistant",
     description: "Intelligent chatbot application with natural language processing and machine learning capabilities.",
     image: "/placeholder.svg?height=200&width=300",
-    link: "https://example.com",
+    link: "https://xsrazy.web.id",
   },
 ]
 
@@ -269,7 +269,7 @@ export default function Portfolio() {
               variant="outline"
               size="default"
               className="px-6 py-2 bg-transparent"
-              onClick={() => window.open("https://xsrazy.web.id", "_blank")}
+              onClick={() => window.open("https://iam.xsrazy.web.id", "_blank")}
             >
               Get in Touch
             </Button>

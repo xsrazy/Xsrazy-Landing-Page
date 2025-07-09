@@ -77,7 +77,7 @@ export default function Component() {
               variant="outline"
               size="default"
               className="px-6 py-2 bg-transparent"
-              onClick={() => window.open("https://xsrazy.web.id", "_blank")}
+              onClick={() => window.open("https://iam.xsrazy.web.id", "_blank")}
             >
               Get Touch
             </Button>

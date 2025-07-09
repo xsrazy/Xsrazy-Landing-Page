@@ -4,12 +4,53 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   title: "Rahmatul Usra - Portfolio",
-  description: "Personal portfolio of Rahmatul Usra",
+  description: "Personal portfolio of Rahmatul Usra - Full Stack Developer",
   generator: "v0.dev",
+  keywords: ["Rahmatul Usra", "Portfolio", "Full Stack Developer", "Web Developer"],
+  authors: [{ name: "Rahmatul Usra" }],
+  creator: "Rahmatul Usra",
+  publisher: "Rahmatul Usra",
   icons: {
-    icon: "/logo.jpeg",
-    shortcut: "/logo.jpeg",
-    apple: "/logo.jpeg",
+    icon: [
+      { url: "/favicon.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon.png", sizes: "16x16", type: "image/png" },
+    ],
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://xsrazy.web.id",
+    title: "Rahmatul Usra - Portfolio",
+    description: "Personal portfolio of Rahmatul Usra - Full Stack Developer",
+    siteName: "Rahmatul Usra Portfolio",
+    images: [
+      {
+        url: "/favicon.png",
+        width: 512,
+        height: 512,
+        alt: "Rahmatul Usra Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary",
+    title: "Rahmatul Usra - Portfolio",
+    description: "Personal portfolio of Rahmatul Usra - Full Stack Developer",
+    creator: "@xsrazy",
+    images: ["/favicon.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 }
 
@@ -21,9 +62,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/logo.jpeg" type="image/jpeg" />
-        <link rel="shortcut icon" href="/logo.jpeg" type="image/jpeg" />
-        <link rel="apple-touch-icon" href="/logo.jpeg" />
+        <link rel="icon" href="/favicon.png" type="image/png" />
+        <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/favicon.png" />
       </head>
       <body>{children}</body>
     </html>

@@ -132,7 +132,7 @@ export default function Portfolio() {
       <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur-sm border-slate-200">
         <div className="container flex h-14 items-center justify-between px-4 max-w-7xl mx-auto">
           <div className="flex items-center space-x-2">
-            <img src="/logo.jpeg" alt="Rahmatul Usra" className="w-7 h-7 rounded-full object-cover" />
+            <img src="/favicon.png" alt="Rahmatul Usra" className="w-7 h-7 rounded-full object-cover" />
             <h1 className="text-lg font-bold">Rahmatul Usra</h1>
           </div>
           <nav className="hidden md:flex items-center space-x-4 text-sm font-medium"></nav>
